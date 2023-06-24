@@ -8,6 +8,7 @@
   - [Introduction](#introduction)
   - [Features](#features)
   - [Prerequisites](#prerequisites)
+  - [Installation](#Installation)
   - [Instructions](#instructions)
   - [License](#license)
 
@@ -24,15 +25,22 @@ Haven't you always wanted to neatly organize your Counter-Strike surf times? Wel
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
-* You have a `Windows/Linux/Mac` machine running Python 3.5 or later.
+* You have a `Windows/Linux/Mac` machine running [Python 3.5](https://www.python.org/downloads/) or later.
   * When installed choosing `ADD TO PATH` is recommended.
 * Your Counter-Strike `console.log` file is updated with your latest surf times.
+
+## Installation
+* Download the latest release and extract to a folder of your choosing
+  <br>
+  **OR**
+  <br>
+* Clone the repository using `git clone https://github.com/Ahrimdon/cs-surf-parser.git`
 
 ## Instructions
 Follow the steps below to use the Counter-Strike Surf Parser:
 
 1. **Step 1**: Change `Enable Developer Console (~)` to `Yes` and type `con_logfile console.log`
-  * Your can add this to your `autoexec.cfg` to log the console automatically
+      * Your can add this to your `autoexec.cfg` to log the console automatically
 2. **Step 2**: In game, use the command to display your rank (e.g. !rank), select your Name and then select `Finished Maps`. This will print your finished maps to the console as well as output it to the log file
 3. **Step 3**: Open your `console.log` (usually C:/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/console.log), and copy **ONLY** your completed surf maps into a new file named `surf_maps.log` (make sure the script is in the same directory)
 4. **Step 4**: Navigate to the folder in Terminal (e.g. `cd C:/path/to/folder`) and use the command `python parse_surf_maps.py`. Select the desired method of sorting.

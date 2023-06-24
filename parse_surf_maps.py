@@ -6,7 +6,7 @@ specified_rank = 100
 # Initialize an empty list for storing parsed data
 parsed_data = []
 
-with open('console.log', 'r', encoding='utf-8') as f:
+with open('surf_maps.log', 'r', encoding='utf-8') as f:
     for line in f:
         if line.count(',') != 2:
             # parsed_data.append((line.strip(), '', 0, 0))  # Keep line as is - remove to delete new lines
@@ -39,6 +39,6 @@ elif sort_method == '3':
     parsed_data.sort(key=lambda x: x[2])
 
 # Write the sorted data to the new log file
-with open('surf_times.log', 'w', encoding='utf-8') as f:
+with open('parsed_surf_maps.log', 'w', encoding='utf-8') as f:
     for line in parsed_data:
         f.write(line[0] + '\n')

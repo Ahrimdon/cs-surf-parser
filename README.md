@@ -1,11 +1,10 @@
-# Counter-Strike Surf Times Parser
+# Counter-Strike Surf Parser
 
 ![image](assets/surf.png)
 
 ## Table of Contents
 
-- [Counter-Strike Surf Times Parser](#counter-strike-surf-times-parser)
-  - [Table of Contents](#table-of-contents)
+- [Counter-Strike Surf Parser](#counter-strike-surf-parser)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Prerequisites](#prerequisites)
@@ -13,7 +12,7 @@
   - [License](#license)
 
 ## Introduction
-Haven't you always wanted to neatly organize your Counter-Strike surf times? Well now you can! Counter-Strike Surf Times Parser is a handy Python script that allows you to parse and sort your Counter-Strike surf times with ease. The script offers three different sorting methods - Rank, Time, or Alphabetical Order of the map name. This allows you to have a concise and organized view of your best (or worst) surf times!
+Haven't you always wanted to neatly organize your Counter-Strike surf times? Well now you can! Counter-Strike Surf Parser is a handy Python script that allows you to parse and sort your Counter-Strike surf times with ease. The script offers three different sorting methods - Rank, Time, or Alphabetical Order of the map name. This allows you to have a concise and organized view of your best (or worst) surf times!
 
 ## Features
 - **Efficient Parsing**: Efficiently parses your Counter-Strike surf times from your `console.log`.
@@ -30,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
 * Your Counter-Strike `console.log` file is updated with your latest surf times.
 
 ## Instructions
-Follow the steps below to use the Counter-Strike Surf Times Parser:
+Follow the steps below to use the Counter-Strike Surf Parser:
 
 1. **Step 1**: Change `Enable Developer Console (~)` to `Yes` and type `con_logfile console.log`
   * Your can add this to your `autoexec.cfg` to log the console automatically

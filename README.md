@@ -1,6 +1,6 @@
 # Counter-Strike Surf Times Parser
 
-![image](https://user-images.githubusercontent.com/your_img_file)
+![image](assets/surf.png)
 
 ## Table of Contents
 

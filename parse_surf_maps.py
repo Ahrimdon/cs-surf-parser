@@ -1,6 +1,6 @@
 import re
 
-# Specified rank
+# Specified rank - 
 specified_rank = 100
 
 # Initialize an empty list for storing parsed data
@@ -9,7 +9,7 @@ parsed_data = []
 with open('surf_maps.log', 'r', encoding='utf-8') as f:
     for line in f:
         if line.count(',') != 2:
-            # parsed_data.append((line.strip(), '', 0, 0))  # Keep line as is - remove to delete new lines
+            # parsed_data.append((line.strip(), '', 0, 0))  # Uncomment to keep lines that aren't ranks
             continue
         # Split the line into parts
         map_name, time_str, rank = line.split(', ')

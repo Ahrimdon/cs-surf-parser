@@ -44,7 +44,7 @@ Follow the steps below to use the Counter-Strike Surf Parser:
       * Your can add this to your `autoexec.cfg` to log the console automatically
 2. **Step 2**: In game, use the command to display your rank (e.g. !rank), select your Name and then select `Finished Maps`. This will print your finished maps to the console as well as output it to the log file
 3. **Step 3**: Open your `console.log` (usually C:/SteamLibrary/steamapps/common/Counter-Strike Global Offensive/csgo/console.log), and copy **ONLY** your completed surf maps into a new file named `surf_maps.log`
-4. **Step 4**: Make sure both `parsee_surf_maps.py` and `surf_maps.log` are in the same directory. Navigate to the folder in Terminal (e.g. `cd C:/path/to/folder`) and use the command `python parse_surf_maps.py`. Select the desired method of sorting.
+4. **Step 4**: Make sure both `parse_surf_maps.py` and `surf_maps.log` are in the same directory. Navigate to the folder in Terminal (e.g. `cd C:/path/to/folder`) and use the command `python parse_surf_maps.py`. Select the desired method of sorting.
 5. **Step 5**: Your parsed and sorted maps will be in a new file named `parsed_surf_maps.log`
 
 #### **Using the Executable**

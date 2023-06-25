@@ -16,7 +16,7 @@
 Haven't you always wanted to neatly organize your Counter-Strike surf times? Well now you can! Counter-Strike Surf Parser is a handy Python script that allows you to parse and sort your Counter-Strike surf times with ease. The script offers three different sorting methods - Rank, Time, or Alphabetical Order of the map name. This allows you to have a concise and organized view of your best (or worst) surf times!
 
 ## Features
-- **Efficient Parsing**: Efficiently parses your Counter-Strike surf times from your `console.log`.
+- **Efficient Parsing**: Efficiently parses your Counter-Strike surf times.
 - **Sorting**: Offers three different sorting methods for easy viewing:
   - Rank
   - Time
